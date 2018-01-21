@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+body,
+html {
+	font: 400 62.5% Arial, Verdana, sans-serif;
+}
+
+.accordeon_inner {
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
+.accordeon_trigger {
+	display: inline-block;
+	padding: .5rem 1rem;
+	font-size: 1.5rem;
+}
+
+.accordeon_trigger:hover {
+	background-color: aqua;
+}
+.accordeon_inner_item{
+	list-style: disc;
+}
+.accordeon_inner_link{
+	display: inline-block;
+	font-size: 1.2rem;
+	padding: 1rem;
+}
